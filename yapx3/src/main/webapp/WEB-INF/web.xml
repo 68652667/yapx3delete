@@ -32,6 +32,11 @@
 			</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
+		
+		<!-- @웹소켓 등록 시작@ -->
+			<async-supported>true</async-supported>
+		<!-- @웹소켓 등록 종료@ -->
+		
 	</servlet>
 		
 	<servlet-mapping>
